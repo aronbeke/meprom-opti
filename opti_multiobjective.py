@@ -19,7 +19,7 @@ def multiobjective_optimization_multistart(opti_type,no_of_models,constraint_typ
 
     length = len(constraint_levels)*no_of_models
     WATER_REC = np.zeros(length)
-    BIVALENT_REC = np.zeros(length)
+    DIVALENT_REC = np.zeros(length)
     SEP_FACTOR = np.zeros(length)
     MOL_POWER = np.zeros(length)
     FEED_PRESSURE = np.zeros(length)
@@ -100,7 +100,7 @@ def multiobjective_optimization_multistart(opti_type,no_of_models,constraint_typ
                 model_dict['permeate_pressures'][j] = model_5.stages[j].pp.value
 
             OPTIMAL[i] = optimal_5
-            BIVALENT_REC[i] = model_5.recovery.value
+            DIVALENT_REC[i] = model_5.recovery.value
             WATER_REC[i] = model_5.water_recovery.value
             SEP_FACTOR[i] = model_5.separation_factor.value
             MOL_POWER[i] = model_5.mol_power.value
@@ -120,7 +120,7 @@ def multiobjective_optimization_multistart(opti_type,no_of_models,constraint_typ
     res_data_all = {
         'OPTIMAL': OPTIMAL,
         'WATER_REC': WATER_REC,
-        'BIVALENT_REC': BIVALENT_REC,
+        'DIVALENT_REC': DIVALENT_REC,
         'SEP_FACTOR': SEP_FACTOR,
         'MOL_POWER': MOL_POWER,
         'FEED_PRESSURE': FEED_PRESSURE,

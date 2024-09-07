@@ -77,7 +77,7 @@ if __name__ == "__main__":
     # Pareto selection
     input_file = input_path+'_all_validation'
     if objective_type == 'separation_factor':
-        opti_multiobjective.pareto_selector(input_file,'BIVALENT_REC','SEP_FACTOR',competing='true')
+        opti_multiobjective.pareto_selector(input_file,'DIVALENT_REC','SEP_FACTOR',competing='true')
     if objective_type == 'molar_power':
         opti_multiobjective.pareto_selector(input_file,'SEP_FACTOR','MOL_POWER',competing='2min')
    

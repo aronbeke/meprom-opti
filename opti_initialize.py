@@ -402,7 +402,7 @@ def sim_validation(input_file,dp_max,no_collocation,no_nodes,model_x=False,model
 
     length = len(df.index)
     SIM_WATER_REC = np.zeros(length)
-    SIM_BIVALENT_REC = np.zeros(length)
+    SIM_DIVALENT_REC = np.zeros(length)
     SIM_SEP_FACTOR = np.zeros(length)
     SIM_MOL_POWER = np.zeros(length)
 
@@ -424,12 +424,12 @@ def sim_validation(input_file,dp_max,no_collocation,no_nodes,model_x=False,model
         recovery,water_recovery,sep_factor,p_pump,power,mol_power,dil_power, rec_power = desc
 
         SIM_WATER_REC[i] = water_recovery
-        SIM_BIVALENT_REC[i] = recovery
+        SIM_DIVALENT_REC[i] = recovery
         SIM_SEP_FACTOR[i] = sep_factor
         SIM_MOL_POWER[i] = mol_power
 
     df['SIM_WATER_REC'] = SIM_WATER_REC
-    df['SIM_BIVALENT_REC'] = SIM_BIVALENT_REC
+    df['SIM_DIVALENT_REC'] = SIM_DIVALENT_REC
     df['SIM_SEP_FACTOR'] = SIM_SEP_FACTOR
     df['SIM_MOL_POWER'] = SIM_MOL_POWER
 
