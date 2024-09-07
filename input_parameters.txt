@@ -1,9 +1,8 @@
 objective=separation_factor
 max_pressure=40
-no_models=5
+no_models=1
 no_nodes=5
-min_constraint=0.88
-max_constraint=0.98
+constraints=0.95,0.97
 pressure_exchange=1
 interstage_dilution=1
 permeate_recycling=1

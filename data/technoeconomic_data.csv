@@ -1,0 +1,142 @@
+idx,iso_alpha,country,e_kg_co2_eq,s_e_usd_kwh,desal_capacity_mm3/d,nf_feed_m3/h,energy_red_mwh/y,t_co2eq_red/y,USD_red/y
+0,ALB,Albania,0.11,0.141,,,0,0,0
+1,DZA,Algeria,0.669,0.035,4,4331,3033,2029,106159
+2,AGO,Angola,0.248,0.011,,,0,0,0
+3,ARG,Argentina,0.398,0.025,,,0,0,0
+4,ARM,Armenia,0.271,0.11,,,0,0,0
+5,AUS,Australia,0.959,0.188,5,5414,3792,3636,712815
+6,AUT,Austria,0.256,0.314,,,0,0,0
+7,AZE,Azerbaijan,0.2,0.065,,,0,0,0
+8,BHR,Bahrain,0.569,0.077,1,1083,758,432,58401
+9,BGD,Bangladesh,0.815,0.087,,,0,0,0
+10,BLR,Belarus,0.656,0.099,,,0,0,0
+11,BEL,Belgium,0.203,0.157,,,0,0,0
+12,BEN,Benin,0.597,,,,0,0,0
+13,BOL,Bolivia,0.437,,,,0,0,0
+14,BIH,Bosnia and Herzegovina,0.794,0.112,,,0,0,0
+15,BWA,Botswana,1.16,0.113,,,0,0,0
+16,BRA,Brazil,0.158,0.122,,,0,0,0
+17,BGR,Bulgaria,0.523,0.158,,,0,0,0
+18,KHM,Cambodia,0.672,,,,0,0,0
+19,CMR,Cameroon,0.057,0.179,,,0,0,0
+20,CAN,Canada,0.18,0.116,,,0,0,0
+21,CHL,Chile,0.572,0.135,,,0,0,0
+22,CHN,China,0.899,0.089,6,6497,4550,4090,404952
+23,COL,Colombia,0.233,0.201,,,0,0,0
+24,COG,Congo,0.01,,,,0,0,0
+25,COD,"Congo, Democratic Republic of the",0.0178,,,,0,0,0
+26,CRI,Costa Rica,0.0407,0.219,,,0,0,0
+27,CIV,Cote d'Ivoire,0.485,0.236,,,0,0,0
+28,HRV,Croatia,0.402,0.165,,,0,0,0
+29,CUB,Cuba,1.02,,,,0,0,0
+30,CUW,Curacao,0.776,,,,0,0,0
+31,CYP,Cyprus,1.08,0.322,,,0,0,0
+32,CZE,Czechia,0.661,0.16,,,0,0,0
+33,DNK,Denmark,0.207,0.244,,,0,0,0
+34,DOM,Dominican Republic,0.857,0.169,,,0,0,0
+35,ECU,Ecuador,0.117,0.085,,,0,0,0
+36,EGY,Egypt,0.644,0.024,,,0,0,0
+37,SLV,El Salvador,0.422,0.187,,,0,0,0
+38,ERI,Eritrea,1.06,,,,0,0,0
+39,EST,Estonia,0.641,0.164,,,0,0,0
+40,ETH,Ethiopia,0.016,0.011,,,0,0,0
+41,FIN,Finland,0.221,0.131,,,0,0,0
+42,FRA,France,0.0742,0.195,,,0,0,0
+43,GAB,Gabon,0.309,,,,0,0,0
+44,GEO,Georgia,0.167,0.112,,,0,0,0
+45,DEU,Germany,0.476,0.276,,,0,0,0
+46,GHA,Ghana,0.463,0.099,,,0,0,0
+47,GIB,Gibraltar,0.902,,,,0,0,0
+48,GRC,Greece,0.705,0.239,,,0,0,0
+49,GTM,Guatemala,0.512,0.182,,,0,0,0
+50,HTI,Haiti,0.986,,,,0,0,0
+51,HND,Honduras,0.589,0.235,,,0,0,0
+52,HKG,Hong Kong,0.864,0.176,,,0,0,0
+53,HUN,Hungary,0.396,0.164,,,0,0,0
+54,ISL,Iceland,0.0454,0.076,,,0,0,0
+55,IND,India,1.222,0.128,2.5,2707,1896,2317,242660
+56,IDN,Indonesia,1.16,0.072,,,0,0,0
+57,IRN,Iran,0.681,,,,0,0,0
+58,IRQ,Iraq,0.959,0.046,,,0,0,0
+59,IRL,Ireland,0.351,,,,0,0,0
+60,ISR,Israel,0.773,0.103,5,5414,3792,2931,390532
+61,ITA,Italy,0.4,0.482,,,0,0,0
+62,JAM,Jamaica,0.745,0.252,,,0,0,0
+63,JPN,Japan,0.674,0.187,1,1083,758,511,141831
+64,JOR,Jordan,0.562,0.095,,,0,0,0
+65,KAZ,Kazakhstan,0.994,0.076,,,0,0,0
+66,KEN,Kenya,0.175,0.202,,,0,0,0
+67,PRK,"Korea, Democratic People's Republic of",0.215,,,,0,0,0
+68,KOR,"Korea, Republic of",0.693,0.115,1,1083,758,526,87222
+69,XXK,Kosovo,1.35,,,,0,0,0
+70,KWT,Kuwait,0.782,0.049,5,5414,3792,2965,185787
+71,KGZ,Kyrgyzstan,0.117,0.037,,,0,0,0
+72,LVA,Latvia,0.51,0.178,,,0,0,0
+73,LBN,Lebanon,0.972,0.164,,,0,0,0
+74,LTU,Lithuania,0.446,0.183,,,0,0,0
+75,LUX,Luxembourg,0.397,0.191,,,0,0,0
+76,LBY,Lybia,0.795,0.009,,,0,0,0
+77,MYS,Malaysia,0.833,0.132,,,0,0,0
+78,MLT,Malta,0.466,0.166,,,0,0,0
+79,MUS,Mauritius,0.947,0.128,,,0,0,0
+80,MEX,Mexico,0.623,0.2,,,0,0,0
+81,MDA,"Moldova, Republic of",0.634,0.119,,,0,0,0
+82,MNG,Mongolia,1.14,,,,0,0,0
+83,MNE,Montenegro,0.681,,,,0,0,0
+84,MAR,Morocco,0.886,0.111,,,0,0,0
+85,MOZ,Mozambique,0.457,0.08,,,0,0,0
+86,MMR,Myanmar,0.39,0.051,,,0,0,0
+87,NAM,Namibia,0.864,,,,0,0,0
+88,NPL,Nepal,0.296,0.069,,,0,0,0
+89,NLD,Netherlands,0.498,0.247,,,0,0,0
+90,NZL,New Zealand,0.129,,,,0,0,0
+91,NIC,Nicaragua,0.537,0.211,,,0,0,0
+92,NER,Niger,0.725,,,,0,0,0
+93,NGA,Nigeria,0.507,0.023,,,0,0,0
+94,MKD,North Macedonia,0.931,,,,0,0,0
+95,NOR,Norway,0.0233,0.13,,,0,0,0
+96,OMN,Oman,0.66,0.223,,,0,0,0
+97,PAK,Pakistan,0.534,0.156,,,0,0,0
+98,PAN,Panama,0.333,0.186,,,0,0,0
+99,PRY,Paraguay,0.00884,0.044,,,0,0,0
+100,PER,Peru,0.219,0.168,,,0,0,0
+101,PHL,Philippines,0.901,0.156,,,0,0,0
+102,POL,Poland,0.936,0.566,,,0,0,0
+103,PRT,Portugal,0.327,0.156,,,0,0,0
+104,QAT,Qatar,0.58,0.036,1.5,1624,1137,660,40944
+105,ROU,Romania,0.393,0.234,,,0,0,0
+106,RUS,Russia,0.699,0.089,,,0,0,0
+107,SAU,Saudi Arabia,1.04,0.068,19,20573,14408,14984,979732
+108,SEN,Senegal,1.04,,,,0,0,0
+109,SRB,Serbia,0.92,0.15,,,0,0,0
+110,SGP,Singapore,0.509,0.327,,,0,0,0
+111,SVK,Slovakia,0.405,0.422,,,0,0,0
+112,SVN,Solvenia,0.352,0.194,,,0,0,0
+113,ZAF,South Africa,1.06,0.089,,,0,0,0
+114,SSD,South Sudan,1.02,,,,0,0,0
+115,ESP,Spain,0.26,0.148,7,7580,5308,1380,785655
+116,LKA,Sri Lanka,0.77,0.142,,,0,0,0
+117,SDN,Sudan,0.46,0.029,,,0,0,0
+118,SWE,Sweden,0.0327,,,,0,0,0
+119,CHE,Switzerland,0.0284,0.267,,,0,0,0
+120,SYR,Syria,0.788,0.016,,,0,0,0
+121,TWN,"Taiwan, Province of China",0.755,0.162,1,1083,758,573,122870
+122,TJK,Tajikistan,0.102,,,,0,0,0
+123,TZA,"Tanzania, United Republic Of",0.7,0.087,,,0,0,0
+124,THA,Thailand,0.765,0.12,,,0,0,0
+125,TGO,Togo,0.484,0.178,,,0,0,0
+126,TTO,Trinidad and Tobago,0.663,0.053,,,0,0,0
+127,TUN,Tunisia,0.626,0.115,,,0,0,0
+128,TUR,Turkey,0.574,0.129,,,0,0,0
+129,TKM,Turkmenistan,0.692,,,,0,0,0
+130,UKR,Ukraine,0.53,0.123,,,0,0,0
+131,ARE,United Arab Emirates,0.568,0.11,15,16242,11375,6461,1251218
+132,GBR,United Kingdom,0.257,0.473,,,0,0,0
+133,USA,United States of America,0.438,0.137,13,14077,9859,4318,1350615
+134,URY,Uruguay,0.0334,0.117,,,0,0,0
+135,UZB,Uzbekistan,0.654,0.071,,,0,0,0
+136,VEN,Venezuela,0.367,0.053,,,0,0,0
+137,VNM,Vietnam,0.664,0.076,,,0,0,0
+138,YEM,Yemen,1.08,,,,0,0,0
+139,ZMB,Zambia,0.178,0.033,,,0,0,0
+140,ZWE,Zimbabwe,0.714,,,,0,0,0

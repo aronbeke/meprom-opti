@@ -431,6 +431,6 @@ def sim_validation(input_file,dp_max,no_collocation,no_nodes,model_x=False,model
     df['SIM_WATER_REC'] = SIM_WATER_REC
     df['SIM_DIVALENT_REC'] = SIM_DIVALENT_REC
     df['SIM_SEP_FACTOR'] = SIM_SEP_FACTOR
-    df['SIM_MOL_POWER'] = SIM_MOL_POWER
+    df['SIM_MOL_POWER'] = SIM_MOL_POWER / 1e5
 
     df.to_csv(input_file+'_validation.csv')

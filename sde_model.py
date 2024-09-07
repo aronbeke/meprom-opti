@@ -6,13 +6,11 @@ from scipy.optimize import fsolve
 Solution-diffusion-electromigration models (SDE)
 SDE: Solution-diffusion-electromigration with collocation points (system of algebraic equations)
 SDE-DAE: Differential-Algebraic Equation
-SDEC: -//- with coupled flux
+SDEC: Solution-diffusion-electromigration with coupled flux
 SF: solution-friction
 
 spiral wound short-cut: calculations with one bulk concentration
 ID: ideal mixing stage
-
-
 
 (direct - not shown): concentrations estimated in collocation points
 indirect: Polynomial parameters estimated in collocation points

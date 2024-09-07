@@ -52,10 +52,7 @@ if __name__ == "__main__":
     elif data['permeate_recycling'] == 0:
         model_r = False
 
-    if data['min_constraint'] == data['max_constraint']:
-        constraint_levels = [data['min_constraint']]
-    else:
-        constraint_levels = np.linspace(data['min_constraint'],data['max_constraint'],10).tolist()
+    constraint_levels = data['constraint_list']
 
     prefix = 'opti_sdec_'
     if model_x:
@@ -68,16 +65,20 @@ if __name__ == "__main__":
     file_name = prefix+str(no_of_models)+'models_'+opti_type
     input_path = 'results/'+file_name
 
+    print("STARTING MULTISTART OPTIMIZATION\n")
     opti_multiobjective.multiobjective_optimization_multistart(opti_type,no_of_models,constraint_type,objective_type,constraint_levels,dp_max,no_collocation,no_nodes,config=config,model_x=model_x,model_d=model_d,model_r=model_r,additional_rec_constraint=add_rec_const)
 
+    print("STARTING VALIDATION THROUGH PROCESS SIMULATION\n")
     # Validation
     input_file = input_path+'_all'
     opti_initialize.sim_validation(input_file,dp_max,no_collocation,no_nodes,model_x=model_x, model_d=model_d, model_r = model_r)
 
+    print("STARTING PARETO SELECTION")
     # Pareto selection
     input_file = input_path+'_all_validation'
     if objective_type == 'separation_factor':
         opti_multiobjective.pareto_selector(input_file,'DIVALENT_REC','SEP_FACTOR',competing='true')
     if objective_type == 'molar_power':
         opti_multiobjective.pareto_selector(input_file,'SEP_FACTOR','MOL_POWER',competing='2min')
+    print("TERMINATION SUCCESSFUL")
    
